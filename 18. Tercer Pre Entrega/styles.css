@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Stick+No+Bills:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meddon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@font-face {
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Stick No Bills', sans-serif;
+    
+   
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.nav ul {
+    margin: 0;
+    
+}
+
+
+.nav li {
+    display: inline;
+    
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 8%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("Images/Header Background.jpg");
+    background-blend-mode: multiply;
+    background-size:cover;
+    background-position: 0px -525px;
+    padding-bottom: 30px;
+}
+
+.brand-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Meddon', cursive;
+    font-weight: normal;
+    color: white;
+}
+
+.brand-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 0;
+    background-color: rgb(12, 7, 7);
+}
+
+.container {
+    max-width: cover;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: 'VT323', monospace;
+    font-weight: normal;
+    color: rgb(248, 244, 244);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+
+.main-footer {
+    background-image: linear-gradient(#628afa, rgb(9, 53, 134));
+    background-color: #628afa;
+    color: white;
+    padding: .25em 0;
+
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+/* ESTILO DEL CARRITO */
+
+img {
+        height: 100%;
+
+    }
+
+    td {
+        height: 100px;
+    }
+
+    h2 {
+        text-align: center;
+        color: rgb(247, 241, 241);
+    }
+
+    .precio {
+        display: block;
+        font-size: 20px;
+    }
+
+    #carrito {
+        width: 30%;
+        background-color: rgb(62, 52, 211);
+        height: 100vh;
+    }
+
+    #listaProductos {
+
+        width: 70%;
+    }
+
+    #contenedorPadre {
+
+        display: flex;
+    }
+
+    /* CIERRA ESTILO DEL CARRITO DE COMPRAS */
+
+
+#pOwnedParent{
+    text-align: center;
+
+}
+#pOwned{
+    background-color: black;
+}
+
+    /* ESTILO DEL AJAX */
+    #caja{
+    color:rgb(249, 250, 252); 
+    text-align: right; 
+    padding-right: 2%;
+}
+
+
+
+
+
